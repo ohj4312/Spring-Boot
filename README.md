@@ -13,7 +13,7 @@ cf) Mac과 Windows 버전의 설치, 단축키가 상이하지만 이번 정리�
 
 - <a href="#install"> 설치</a>
 - <a href="#key">단축키 가이드 </a>
-- <a href="#key">ToDoList API 구성</a>
+- <a href="#todolist">ToDoList API 구성</a>
   
   <br/><br/>
 
