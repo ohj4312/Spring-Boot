@@ -120,3 +120,69 @@ IntelliJ의 장점 : 다양한 단축키 제공, 디버깅 편리, 개발자 친
   -  메소드 위 /** + enter : 자동으로 java Doc 문서 양식이 관례에 맞춰 생성됨
 - 기능(action) 찾기 (replace, serch 등등 제공) : shift + ctrl + A
 - help의 KeyMap reference에서 IntelliJ 주요 단축키 일부를 확인할 수 있다.
+
+<br><br>
+
+# <div id="todolist"> ToDoList API 구성 실습 </div>
+
+기능 요구사항
+<ol>
+    <li> TodoList 목록에 아이템을 추가  </li>
+    <li> TodoList 목록 중 특정 아이템 조회  </li>
+    <li> TodoList 전체 목록 조회 </li>
+    <li> TodoList 목록 중 특정 아이템을 수정  </li>
+    <li> TodoList 목록 중 특정 아이템을 삭제 </li>
+    <li> TodoList 전체 목록을 삭제 </li>
+</ol>
+
+<br><br>
+
+Memo. 프론트엔드와 백엔드의 협업
+- TIP1 . api 스펙에 method(POST,GET,Patch 등), Request, Respose 등 협업에 필요한 내용을 기술하여 이를 바탕으로 구현
+- TIP2 . 필요한 요구사항을 각자 나누어 할당!
+
+<br><br>
+
+### Chapter1 . 환경설정 및 프로젝트 생성
+
+- IntelliJ -> New project -> 다양한 옵션들 중 Gradle을 사용하겠다!
+  - cf) Gradle 과 Maven 은 프로젝트 Bulid 관리 Tool이다.
+  - 사용하는 목적은 비슷하지만 사용성, 성능에 차이가 있다.
+  - Gradle이 Maven보다 나중에 등장하며 Maven의 단점을 보완했다.
+  - Gradle을 사용하지 못하는 환경
+- 생성된 폴더중 build.gradle은 build에 필요한 옵션들을 정의해준다.
+- gradle view에서 Dependecise 통해 추가된 의존성을 볼 수 있다. 
+  - 프로젝트 생성 후 기본으로 추가되어 있는 jupiter 관련 의존성을 확인할 수 있다.
+  - <img src = "../img/gradle기본의존성.png" width="450px" height="200px">
+- plugin에 spring boot와 spring dependency를 사용하기 위한 코드를 추가한다.
+  - cf) MVNrepository : https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web/2.4.3
+
+- dependencies에 필요한 의존성 라이브러리를 추가한다.
+     - <img src = "../img/dependencyPlus.png" width="450px" height="200px">
+     - Project 창의 External Libraries를 통해 추가된 라이브러리를 확인할 수 있고 클래스 구현부 확인도 가능하다.
+     - lombok 라이브러리는 의존성 추가 후 바로 사용이 불가능하고 IntelliJ에 추가적인 설정이 필요하다.
+       - lommbok plugin 설치 
+       - cf)Eclipse의 preference는 IntelliJ에서 settings이다. (File-> settings : 단축키 - ctrl + alt+ s)
+        1. preference의 plugin 선택 or shift 2번 단축키 -> plugin 검색)
+        2. plugins에서 lombok 검색 후 설치
+        3. IntelliJ 껐다 키기.
+        4. Settings->Build,Execution, Deployment -> Compiler -> Annotation Processors enable annotation processing 체크하기 <img src = "../img/lombokInstall.png" width="450px" height="200px">
+
+
+<br><br>
+- 첫 패키지, 클래스 생성하기
+```java
+package org.example;
+
+public class TodoServerApplication {
+    public static void main(String[] args) {
+        System.out.println("Hello ToDo");
+    }
+}
+
+```
+<br>
+
+- 결과 <br>
+
+ <img src = "../img/hellotodo.png" width="550px" height="200px">
