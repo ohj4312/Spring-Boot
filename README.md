@@ -13,7 +13,7 @@ cf) Mac과 Windows 버전의 설치, 단축키가 상이하지만 이번 정리�
 
 - <a href="#install"> 설치</a>
 - <a href="#key">단축키 가이드 </a>
-- ToDoList API 구성
+- <a href="#key">ToDoList API 구성</a>
   
   <br/><br/>
 
@@ -153,12 +153,12 @@ Memo. 프론트엔드와 백엔드의 협업
 - 생성된 폴더중 build.gradle은 build에 필요한 옵션들을 정의해준다.
 - gradle view에서 Dependecise 통해 추가된 의존성을 볼 수 있다. 
   - 프로젝트 생성 후 기본으로 추가되어 있는 jupiter 관련 의존성을 확인할 수 있다.
-  - <img src = "../img/gradle기본의존성.png" width="450px" height="200px">
+  - <img src = "./img/gradle기본의존성.PNG" width="450px" height="200px">
 - plugin에 spring boot와 spring dependency를 사용하기 위한 코드를 추가한다.
   - cf) MVNrepository : https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web/2.4.3
 
 - dependencies에 필요한 의존성 라이브러리를 추가한다.
-     - <img src = "../img/dependencyPlus.png" width="450px" height="200px">
+     - <img src = "./img/dependencyPlus.PNG" width="450px" height="200px">
      - Project 창의 External Libraries를 통해 추가된 라이브러리를 확인할 수 있고 클래스 구현부 확인도 가능하다.
      - lombok 라이브러리는 의존성 추가 후 바로 사용이 불가능하고 IntelliJ에 추가적인 설정이 필요하다.
        - lommbok plugin 설치 
@@ -166,7 +166,7 @@ Memo. 프론트엔드와 백엔드의 협업
         1. preference의 plugin 선택 or shift 2번 단축키 -> plugin 검색)
         2. plugins에서 lombok 검색 후 설치
         3. IntelliJ 껐다 키기.
-        4. Settings->Build,Execution, Deployment -> Compiler -> Annotation Processors enable annotation processing 체크하기 <img src = "../img/lombokInstall.png" width="450px" height="200px">
+        4. Settings->Build,Execution, Deployment -> Compiler -> Annotation Processors enable annotation processing 체크하기 <img src = "./img/lombokInstall.PNG" width="450px" height="200px">
 
 
 <br><br>
@@ -185,4 +185,4 @@ public class TodoServerApplication {
 
 - 결과 <br>
 
- <img src = "../img/hellotodo.png" width="550px" height="200px">
+ <img src = "./img/hellotodo.PNG" width="550px" height="200px">
