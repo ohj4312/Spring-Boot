@@ -186,3 +186,14 @@ public class TodoServerApplication {
 - 결과 <br>
 
  <img src = "./img/hellotodo.PNG" width="550px" height="200px">
+ 
+ <br><br>
+ 
+### Chapter3 . 모델 구현
+- Spring Boot Project에선 다양한 방식으로 컴포넌트를 조합해서 사용하는데 이번 프로젝트에서는  Model, Repository, Service, Controller 네 개의 layer로 나누어 구현하겠습니다.
+  - 장점1 : layer를 구분함으로써 각각의 layer에 맞는 역할만 수행하면 되기 때문에 코드의 복잡성이 낮아집니다.
+  - 장점2 : 특정 layer에 필요에 의해 수정이 일어날 때 다른 layer에 주는 영향을 최소화하기 때문에 유지보수 관점에서도 코드를 관리하고 수정할 때 용이해집니다.
+
+- Model : 개발 도메인에 사용되는 각각의 Object이다.
+  - 데이터베이스와 데이터를 주고 받는 todoentity클래스
+  - 요청을 받고 응답을 내려주기 위한 todoRequest, todoRespose
