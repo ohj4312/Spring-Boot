@@ -13,7 +13,7 @@
     - share로 공유해서 사용도 가능하다.
     - 해당 파일을 원하는 폴더에 위치시킨 후 IntelliJ를 통해 open할 수 있다.
   - cf > Ultimate 버전에서는 기본 main 메소드 또한 지정한 옵션에 맞춰 자동 생성하여 프로젝트가 실행된다.
-- JDK : Jdk ver14.0.2 (강의는 11버전 - 타입 추론을 위해 / 이미 14버전이 설치되어 있으며 강의를 따라가는데 문제가 없으므로 기존 jdk를 사용)
+- JDK : Jdk ver14.0.2 (강의는 11버전 - 타입 추론을 위해 / 이미 14버전이 설치되어 있으며 강의를 따라가는데 문제가 없으므로 기존 jdk ver.14를 사용)
 - 설치가 잘 완료되었는지 확인
   - maven repository - springfox boot starter (gradle) 의존성 추가
   - 참고 : https://mvnrepository.com/artifact/io.springfox/springfox-boot-starter/3.0.0
