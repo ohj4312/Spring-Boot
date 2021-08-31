@@ -1,0 +1,68 @@
+# 디자인 패턴
+자주 사용하는 설계 패턴을 정형화해서 이를 유형별로 가장 최적의 방법으로 개발을 할 수 잇도록 정해둔 설계 <br>
+알고리즘과 유사하지만, 명확하게 정답이 있는 형태는 아니며, 프로젝트의 상황에 맞추어 적용 가능하다.
+<br><br>
+
+## Gof 디자인 패턴
+소프트웨어를 설계할 때는 기존에 경험이 매우 중요하다.<br>
+그러나 모든 사람들이 다양한 경험을 가지고 있을 수는 없다.<br>
+이러한 지식을 공유하기 위해 나온것이 GOF(Gang of Four)의 디자인 패턴이다.<br>
+객체지향 개념에 따른 설계 중 재사용할 경우 유용한 설계를 디자인 패턴으로 정리해둔 것이다.
+
+Gof의 디자인 패턴은 총 23개이다.
+
+<br><br>
+
+## 디자인 패턴의 장점
+- 개발자(설계자) 간의 원활한 소통
+- 소프트웨어 구조 파악 용이
+- 재사용을 통한 개발 시간 단축
+- 설계 변경 요청에 대한 유연한 대처(유지보수 용이)
+
+<br>
+
+## 디자인 패턴의 단점
+- 객체지향 설계 / 구현이 필요
+- 초기 투자 비용 부담
+
+
+<br><br>
+
+## 생성 패턴
+객체를 생성하는 것과 관련된 패턴으로, 객체의 생성과 변경이 전체 시스템에 미치는 영향을 최소화하고 코드의 유연성을 높여준다.
+- Factory Method
+- <strong style="color:red;">Singleton</strong>
+- Prototype
+- <strong style="color:red;">Builder</strong>
+- Abstract Factory
+- <strong style="color:red;">Chaining</strong> (gof에 나온 패턴은 아니지만 lombok을 통해 설정하여 사용)
+
+<br>
+
+## 구조 패턴
+프로그램 내의 자료구조나 인터페이스 구조 등 프로그램 구조를 설계하는데 활용될 수 있는 패턴<br>
+클래스, 객체들의 구성을 통해서 더 큰 구조를 만들 수 있게 해준다.<br>
+큰 규모의 시스템에서는 많은 클래스들이 서로 의존성을 가지게 되는데, 이런 복잡한 구조를 개발하기 쉽게 만들어주고, 유지보수하기 쉽게 만들어준다.
+- <strong style="color:red;">Adapter</strong>
+- Composite
+- Bridge
+- <strong style="color:red;">Decorator</strong>
+- <strong style="color:red;">Facade</strong>
+- Flyweight
+- <strong style="color:red;">Proxy</strong>
+
+<br>
+
+## 행위 패턴
+반복적으로 사용되는 객체들의 상호작용을 패턴화한 것으로, 클래스나 객체들이 상호작용하는 방법과 책임을 분산하는 방법을 제공한다. 행위 패턴은 행위 관련 패턴을 사용하여 독립적으로 일을 처리하고자 할 때 사용한다.
+- Template Method
+- Interpreter
+- Iterator (반복을 할때 사용)
+- <strong style="color:red;">Observer</strong>
+- <strong style="color:red;">Strategy</strong>
+- Visitor
+- Chain of responsibility
+- Command
+- Mediator
+- State
+- Mememto
