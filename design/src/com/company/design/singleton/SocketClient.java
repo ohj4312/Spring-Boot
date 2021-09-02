@@ -6,7 +6,8 @@ public class SocketClient {
     private static SocketClient socketClient=null;
 
     //기본생성자를 private으로 설정
-    public SocketClient(){
+    //public SocketClient(){
+    private SocketClient(){
 
     }
 
