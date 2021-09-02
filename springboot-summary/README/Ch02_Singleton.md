@@ -5,11 +5,27 @@
 Spring의 Bean이라고 부르는 클래스(객체)는 기본으로 Singleton을 통해 생성한다.
 
 <img src="./img/Singleton.PNG" width="300">
+<br>
 싱글톤은 default 생성자를 private으로 막고, getInstance를 통해 처음 한번만 객체를 생성하고 그후에는 생성된 객체를 가져와서 동일한 객체를 사용한다.
 
 
 ```java
 
+    private static SocketClient socketClient=null;
+
+    //기본생성자를 private으로 설정
+    private SocketClient(){
+
+    }
+
+    //static 메소드이기 때문에 어떠한 클래스에서도 접근가능
+    public static SocketClient getInstance(){
+        //최초 한번만 객체생성
+        if(socketClient==null){
+            socketClient = new SocketClient();
+        }
+        return socketClient;
+    }
 
 ```
 
