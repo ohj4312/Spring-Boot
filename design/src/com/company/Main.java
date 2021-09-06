@@ -3,6 +3,8 @@ package com.company;
 import com.company.design.adapter.*;
 import com.company.design.aop.AopBrowser;
 import com.company.design.decorator.*;
+import com.company.design.observer.Button;
+import com.company.design.observer.IButtonListener;
 import com.company.design.proxy.Browser;
 import com.company.design.proxy.BrowserProxy;
 import com.company.design.proxy.HTML;
@@ -11,6 +13,7 @@ import com.company.design.singleton.Aclazz;
 import com.company.design.singleton.Bclazz;
 import com.company.design.singleton.SocketClient;
 
+import java.sql.SQLOutput;
 import java.util.concurrent.atomic.AtomicLong;
 
 public class Main {
@@ -84,7 +87,7 @@ public class Main {
         System.out.println("loading time : "+end.get());
 
         aopBrowser.show();
-        System.out.println("loading time : "+end.get());*/
+        System.out.println("loading time : "+end.get());
 
         //Decorator 패턴
         ICar audi=new Audi(1000);
@@ -98,7 +101,22 @@ public class Main {
         audi4.showPrice();
         //a5
         ICar audi5=new A5(audi,"A5");
-        audi5.showPrice();
+        audi5.showPrice();*/
+
+        //Obeserver 패턴
+        Button button=new Button("버튼");
+
+        button.addListener(new IButtonListener() {
+            @Override
+            public void clickEvent(String event) {
+                System.out.println(event);
+            }
+        });
+
+        button.click("메세지 전달 : click1");
+        button.click("메세지 전달 : click2");
+        button.click("메세지 전달 : click3");
+        button.click("메세지 전달 : click4");
     }
 
 
