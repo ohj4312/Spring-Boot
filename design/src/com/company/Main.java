@@ -16,6 +16,7 @@ import com.company.design.proxy.IBrowser;
 import com.company.design.singleton.Aclazz;
 import com.company.design.singleton.Bclazz;
 import com.company.design.singleton.SocketClient;
+import com.company.design.strategy.*;
 
 import java.sql.SQLOutput;
 import java.util.concurrent.atomic.AtomicLong;
@@ -120,7 +121,7 @@ public class Main {
         button.click("메세지 전달 : click1");
         button.click("메세지 전달 : click2");
         button.click("메세지 전달 : click3");
-        button.click("메세지 전달 : click4");*/
+        button.click("메세지 전달 : click4");
 
         //Facade 패턴
         Ftp ftpClient=new Ftp("www.foo.co.kr",22,"home/etc");
@@ -149,6 +150,31 @@ public class Main {
         // -> 이전 코드처럼 각각의 객체에 의존하는 거보다 facade 를 적용하여 전면만 바라볼수있는 객체를 통해 안에 있는 복잡한 여러 의존성을 갖은 것들은 새로운 인터페이스 형태로 제공한다.
         //-> 바깥쪽에서는 간략하게 코드를 줄일수있고 기능 자체는 sftClient가 온전히 지원해준다.
         //-> 여러가지 객체의존성을 안쪽으로 숨겨주는 것을 facade 패턴이라고 한다.
+
+
+         */
+
+        //Strategy 패턴
+        Encoder encoder=new Encoder();
+
+        //base64
+        EncodingStrategy base64=new Base64Strategy();
+
+        //nomal
+        EncodingStrategy normal=new NomalStrategy();
+
+        String message="hello java";
+        encoder.setEncodingStrategy(base64);
+        String base64Result=encoder.getMessage(message);
+        System.out.println(base64Result);
+
+        encoder.setEncodingStrategy(normal);
+        String normalResult=encoder.getMessage(message);
+        System.out.println(normalResult);
+
+        encoder.setEncodingStrategy(new AppendStrategy());
+        String appendResult=encoder.getMessage(message);
+        System.out.println(appendResult);
     }
 
 
