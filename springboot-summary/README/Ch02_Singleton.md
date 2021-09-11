@@ -7,7 +7,7 @@ Spring의 Bean이라고 부르는 클래스(객체)는 기본으로 Singleton을
 
 <br><br>
 
-<img src="./img/Singleton.PNG" width="300">
+<img src="./img/Singleton.PNG">
 <br>
 싱글톤은 default 생성자를 private으로 막고, getInstance를 통해 처음 한번만 객체를 생성하고 그후에는 생성된 객체를 가져와서 동일한 객체를 사용한다.
 
@@ -38,12 +38,12 @@ Spring의 Bean이라고 부르는 클래스(객체)는 기본으로 Singleton을
 
 - 싱글톤 패턴으로 구현했을 때의 결과
 
-<img src="./img/singleton_code.PNG" width="300">
+<img src="./img/singleton_code.PNG">
 
 <br><br>
 
 - 싱글톤 패턴으로 구현하지 않고 new 생성자를 통해 얻은 결과
 
-<img src="./img/singleton_code2.PNG" width="300">
+<img src="./img/singleton_code2.PNG">
 <br>
 

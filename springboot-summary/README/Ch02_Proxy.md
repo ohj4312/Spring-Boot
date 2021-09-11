@@ -7,7 +7,7 @@ SOLID 원칙 중 개방폐쇄원칙(OCP)과 의존역전 원칙(DIP)를 따른�
 Proxy 기능을 구현한 예로는 Cache, Spring AOP 이다.
 
 
-<img src="./img/Proxy.PNG" width="300">
+<img src="./img/Proxy.PNG">
 
 <br>
 
@@ -32,7 +32,7 @@ Proxy 기능을 구현한 예로는 Cache, Spring AOP 이다.
 
 - cache 기능이 없는 실행 결과
 
-<img src="./img/proxy_nocashing.PNG" width="300">
+<img src="./img/proxy_nocashing.PNG">
 <br>
 
 매번 로딩이 일어난다.
@@ -78,7 +78,7 @@ public class BrowserProxy implements IBrowser{
 - Proxy Pattern을 더한 cache 기능이 추가된 실행 결과
 
 
-<img src="./img/proxy_usecache.PNG" width="300">
+<img src="./img/proxy_usecache.PNG">
 
 <br>
 
@@ -169,7 +169,7 @@ public class AopBrowser implements IBrowser {
 
 - main method 실행 결과
 
-<img src="./img/aop_result.PNG" width="300">
+<img src="./img/aop_result.PNG">
 
 <br>
 

@@ -41,7 +41,7 @@ SOLID 중 개방폐쇄 원칙(OCP)와 의존 역전 원칙(DIP)를 따른다.<br
 
 - 데코레이터 패턴을 적용하기 전의 결과
 
-<img src="./img/before_decorator.PNG" width="300">
+<img src="./img/before_decorator.PNG" >
 
 <br><br>
 
@@ -90,6 +90,6 @@ public class A3 extends AudiDecorator {
 
 - 데코레이터 패턴을 추가한 결과
 
-<img src="./img/use_decoratore.PNG" width="300">
+<img src="./img/use_decoratore.PNG" >
 <br>
 

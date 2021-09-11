@@ -5,7 +5,7 @@ Adapter의 실생활 예로는 변환기를 들수 있다.<br>
 SOLID 원칙 중 개방폐쇄원칙(OCP)를 따른다.<br>
 
 
-<img src="./img/Adapter.PNG" width="300">
+<img src="./img/Adapter.PNG">
 
 <br>
 
@@ -49,6 +49,6 @@ SOLID 원칙 중 개방폐쇄원칙(OCP)를 따른다.<br>
 
 - 실행 결과
 
-<img src="./img/adapter_code.PNG" width="300">
+<img src="./img/adapter_code.PNG" >
 <br>
 
