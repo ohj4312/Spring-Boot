@@ -183,3 +183,9 @@ Talend API TESTER 사용시 Add query Parameter 혹은 url 자체에서 query Pa
 
 >queryparameter 값이 적다고 하면 2방법을 써도 되고,
 queryparameter 값이 무한정에 무엇이 들어오는지 모른다면 1방법을 써도 된다.
+
+<br>
+
+MEMO>
+
+<img src="./img/annotation_get_api.PNG">
