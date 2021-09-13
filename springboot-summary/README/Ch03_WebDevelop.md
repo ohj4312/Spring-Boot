@@ -25,5 +25,3 @@ World Wide Web == WWW === W3
 
 <br><br>
 
-# REST API
-
