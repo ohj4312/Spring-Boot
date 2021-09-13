@@ -10,7 +10,7 @@ IntelliJ-> GetMapping Annotation 추가 -> ctrl + 마우스 올려두기 -> 하�
 
 <br>
 
-### GET API 실습
+## GET API 실습
 
 - Controller 지정 및 url 매핑
 ```java
@@ -21,6 +21,9 @@ public class GetApiController {
 }
 ```
 - 이후 내용은 Controller 안의 내용입니다.
+
+## Get API 지정
+
 ```java
     @GetMapping(path = "/hello") //http://localhost:8080/api/get/hello
     public String hello(){
@@ -48,6 +51,8 @@ public class GetApiController {
 
 <br>
 <br>
+
+## Path Variable 활용
 
 ```java
     @GetMapping("/path-variable/{name}")
@@ -88,6 +93,8 @@ console 결과>
 <br><br>
 
 
+## Query Parameter 활용
+
 ```java
     @GetMapping(path="query-param")
     public String queryParam(@RequestParam Map<String,String> queryParam){
@@ -127,6 +134,7 @@ console 결과>
 
 <br><br>
 
+### @RequestParam Annotation 활용
 
 ```java
     @GetMapping("query-param02")
@@ -159,6 +167,8 @@ Talend API TESTER 사용시 Add query Parameter 혹은 url 자체에서 query Pa
 <img src="./img/query-param02-400error.PNG">
 
 <br><br>
+
+### DTO를 이용하는 방식 (강추)
 
 ```java
     @GetMapping("query-param03")
