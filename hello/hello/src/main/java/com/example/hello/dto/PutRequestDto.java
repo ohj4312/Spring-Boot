@@ -1,75 +1,47 @@
 package com.example.hello.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.databind.PropertyNamingStrategy;
+import com.fasterxml.jackson.databind.annotation.JsonNaming;
 
-public class PostRequestDto {
-    private String account;
-    private String email;
-    private String address;
-    private String password;
-    @JsonProperty("phone_number")
-    private String phoneNumber;
+import java.util.List;
 
-    //@JsonProperty("OTP")
-    private String OTP;
+@JsonNaming(value = PropertyNamingStrategy.SnakeCaseStrategy.class)
+public class PutRequestDto {
+    private String name;
+    private int age;
+    private List<PutCarDto> carList;
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public String getName() {
+        return name;
     }
 
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getAccount() {
-        return account;
+    public int getAge() {
+        return age;
     }
 
-    public void setAccount(String account) {
-        this.account = account;
+    public void setAge(int age) {
+        this.age = age;
     }
 
-    public String getEmail() {
-        return email;
+    public List<PutCarDto> getCarList() {
+        return carList;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getOTP() {
-        return OTP;
-    }
-
-    public void setOTP(String OTP) {
-        this.OTP = OTP;
+    public void setCarList(List<PutCarDto> carList) {
+        this.carList = carList;
     }
 
     @Override
     public String toString() {
-        return "PostRequestDto{" +
-                "account='" + account + '\'' +
-                ", email='" + email + '\'' +
-                ", address='" + address + '\'' +
-                ", password='" + password + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                ", OTP='" + OTP + '\'' +
+        return "PutRequestDto{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", carList=" + carList +
                 '}';
     }
 }
