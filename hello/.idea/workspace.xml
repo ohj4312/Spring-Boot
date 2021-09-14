@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a790d203-7000-4495-9d9d-ed91aa6e7255" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hello/src/main/java/com/example/hello/cotroller/PostApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello/src/main/java/com/example/hello/dto/PostRequestDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-summary/README/Ch04_Post.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-summary/README/img/post_request.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/src/main/java/com/example/hello/cotroller/PutApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/src/main/java/com/example/hello/dto/PutCarDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello/src/main/java/com/example/hello/dto/PutRequestDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-summary/README/Ch04_Put.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +75,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.hello.dto" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.HelloWorldApplication">
     <configuration name="HelloWorldApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
