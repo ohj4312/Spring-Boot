@@ -56,7 +56,7 @@ Facade는 자신이 가지고 있는 각 클래스의 기능을 명확히 알아
 ```
 
 - SftpClient Class : 여러 객체를 한번 감싸서 의존성을 sftpclint가 다 가져가고 새로운 인터페이스를 제공한다.
-- 
+  
 ```java
 public class SftpClient {
 

@@ -21,6 +21,6 @@
   - http://localhost:8080/swagger-ui/ (반드시 / 를 해야한다.) 를 통해 요청과 응답이 정상인지 확인
   - <img src="./img/testSwaggerUi.PNG">
   - 만들어진 api controller를 통해 나이, 이름을 입력하여 Execute 클릭
-  - <img src="./img/apiController.PNG">
+  - <img src="./img/apicontroller.PNG">
   - -> 정상실행시 response 응답
   - <img src="./img/response.PNG">

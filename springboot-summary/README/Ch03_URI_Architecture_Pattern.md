@@ -4,14 +4,14 @@
 인터넷에서 특정 자원을 나타내는 주소 값, 해당값은 유일하다. 
 ( 응답은 달라질 수 있다. )<br>
 - 예시 )
-- 요청 : https://www.fastcampus.co.kr/resource/sample/1
+- 요청 : `https://www.fastcampus.co.kr/resource/sample/1`
 - 응답 : fastcampus.pdf, fastcapmus.docx (다양한 형태로 여러 정보들이 올 수 있는 형태)
 
 <br>
 
 ## URL (Uniform Resource Locator)
 인터넷 상에서의 자원, 특정 파일이 어디에 위치하는지 식별하는 주소
-- 요청 : https://www.fastcampus.co.kr/fastcampus.pdf
+- 요청 : `https://www.fastcampus.co.kr/fastcampus.pdf`
 - url 주소 자체가 특정 서버, 특정 컴퓨터의 특정 폴더에 특정 파일이다. 즉 특정 위치를 나타내는 것이다.
 - URI는 resource 정보가 변경될 수 있지만 URL은 특정 위치이기 때문에 변결될 수 없다.
 - 따라서 URL은 URI의 하위 개념이다.

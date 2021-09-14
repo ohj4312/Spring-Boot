@@ -36,7 +36,7 @@
 1. 자원의 식별
    - 웹기반의 REST에서는 리소스 접근을 할때 URI를 사용합니다.
    - URI에 자원을 식별할 수 있는 정보가 담겨있어야 한다.
-   - -> https://foo.co.kr/user/100 
+   - -> `https://foo.co.kr/user/100` 
    - 예를 들어 위와 같은 URI 하위에 user/100이란 정보가 있다면 Resource는 user, 식별자는 100이된다. 즉 100번째 user를 식별한다.
 2. 메시지를 통한 리소스 조작이 가능
    - Web에서는 다양한 방식으로 데이터를 전달 할 수 있습니다.
@@ -50,10 +50,10 @@
 3. 자기 서술적 메시지를 작성할 수 있어야 한다.
    - 요청하는 데이터가 어떻게 처리되어져야 하는지 충분한 데이터를 포함할 수 있어야 한다.
    - HTTP 기반의 REST에서는 HTTP Method와 Header의 정보, URI의 포함된 정보로 표현할 수 있다.
-     - GET : https://foo.co.kr/user/100 , 사용자의 정보 요청
-     - POST :https://foo.co.kr/user , 사용자 정보생성
-     - PUT : https://foo.co.kr/user , 사용자 정보 생성 및 수정
-     - DELETE : https://foo.co.kr/user/100  , 사용자 정보 삭제
+     - GET : `https://foo.co.kr/user/100` , 사용자의 정보 요청
+     - POST : `https://foo.co.kr/user` , 사용자 정보생성
+     - PUT : `https://foo.co.kr/user` , 사용자 정보 생성 및 수정
+     - DELETE : `https://foo.co.kr/user/100`  , 사용자 정보 삭제
      - 그 외에 담지 못한 정보들은 URI의 메시지를 통하여 표현한다.
 4. 애플리케이션 상태에 대한 엔진으로써 하이퍼미디어
    - REST API를 개발할 때 단순히 한가지 Client 요청에 대한 데이터의 응답만 해주는 것이 아닌 그외에 서버가 가지고 있는 관련된 리소스에 대한 Link 정보까지 같이 포함되어져야 한다.

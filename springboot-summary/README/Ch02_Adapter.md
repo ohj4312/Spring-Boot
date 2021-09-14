@@ -1,8 +1,8 @@
 # Adapter pattern
 
-Adapter의 실생활 예로는 변환기를 들수 있다.<br>
-호환성이 없는 기존 클래스의 인터페이스를 변환하여 재사용할 수 있도록 한다.<br>
-SOLID 원칙 중 개방폐쇄원칙(OCP)를 따른다.<br>
+- Adapter의 실생활 예로는 변환기를 들수 있다.<br>
+- 호환성이 없는 기존 클래스의 인터페이스를 변환하여 재사용할 수 있도록 한다.<br>
+- SOLID 원칙 중 개방폐쇄원칙(OCP)를 따른다.<br>
 
 
 <img src="./img/Adapter.PNG">

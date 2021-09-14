@@ -1,8 +1,8 @@
 # Observer pattern
 
-관찰자 패턴은 변화가 일어났을 때 미리 등록된 다른 클래스에 통보해주는 패턴을 구현한 것이다.<br>
-주로 SWing 같은 java의 GUI 혹은 안드로이드 프로그래밍에서 Event Listener가 Observer 패턴의 대표적인 예이다. <br>
-이 이벤트리스너가 obserber가 되고 event를 관찰하고 event 발생시 리스너를 통해 이벤트가 전달된다.<br>
+- 관찰자 패턴은 변화가 일어났을 때 미리 등록된 다른 클래스에 통보해주는 패턴을 구현한 것이다.<br>
+- 주로 SWing 같은 java의 GUI 혹은 안드로이드 프로그래밍에서 Event Listener가 Observer 패턴의 대표적인 예이다. <br>
+- 이 이벤트리스너가 obserber가 되고 event를 관찰하고 event 발생시 리스너를 통해 이벤트가 전달된다.<br>
 
 <br><br>
 
