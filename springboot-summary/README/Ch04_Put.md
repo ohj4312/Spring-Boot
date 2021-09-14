@@ -32,7 +32,7 @@
 
 <br><br>
 
-## POST를 통해 전달된 API를 DTO으로 받기
+## PUT를 통해 전달된 API를 DTO으로 받기
 
 - Controller
 ```java
