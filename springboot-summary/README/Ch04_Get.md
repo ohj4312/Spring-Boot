@@ -64,24 +64,24 @@ public class GetApiController {
 ```
 
 - 변화하는 구간은 path variable로 받는다.
-  - http://localhost:8080/api/get/path-variable/{name} -> name은 바뀌는 부분
-  - http://localhost:8080/api/get/path-variable/{spring-boot}
-  - http://localhost:8080/api/get/path-variable/{spring}
-  - http://localhost:8080/api/get/path-variable/{java}
-  - http://localhost:8080/api/get/path-variable/{jpa}
+  - `http://localhost:8080/api/get/path-variable/{name}` -> name은 바뀌는 부분
+  - `http://localhost:8080/api/get/path-variable/{spring-boot}`
+  - `http://localhost:8080/api/get/path-variable/{spring}`
+  - `http://localhost:8080/api/get/path-variable/{java}`
+  - `http://localhost:8080/api/get/path-variable/{jpa}`
 - 변수의 이름은 path-variable과 동일해야 한다.
-  - http://localhost:8080/api/get/path-variable/{name} 일 경우
+  - `http://localhost:8080/api/get/path-variable/{name}` 일 경우
   - public String pathVariable(@PathVariable String name)
 - 만약 path-variable로 받는 name이라는 이름과 함수가 받는 name이라는 이름이 같아야 한다면 @PathVariable에 name="name을 추가하여 작성하여 pathVarialbe name을 전달받는다고 지정해준다.
   - public String pathVariable(@PathVariable(name="name") String pathName , String name)
 
 <br>
 
-요청 :  http://localhost:8080/api/get/path-variable/java
+요청 :  `http://localhost:8080/api/get/path-variable/java`
 
 <img src="./img/path_variable_java.PNG">
 
-요청 :  http://localhost:8080/api/get/path-variable/spring-boot
+요청 :  `http://localhost:8080/api/get/path-variable/spring-boot`
 
 <img src="./img/path_variable_spring-boot.PNG">
 
@@ -119,7 +119,7 @@ console 결과>
 
 <br>
 
-요청 :  http://localhost:8080/api/get/query-param?user=steve&email=steve@gmail.com&age=30
+요청 :  `http://localhost:8080/api/get/query-param?user=steve&email=steve@gmail.com&age=30`
 
 <img src="./img/query-param_request.PNG">
 
