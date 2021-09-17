@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a790d203-7000-4495-9d9d-ed91aa6e7255" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/hello/src/main/java/com/example/hello/cotroller/DeleteApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../springboot-summary/README/Ch04_Delete.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../springboot-summary/README/Ch04_Put.md" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-summary/README/Ch04_Put.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/src/main/java/com/example/hello/cotroller/DeleteApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello/src/main/java/com/example/hello/cotroller/DeleteApiController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
