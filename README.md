@@ -34,4 +34,8 @@
 <kbd>Spring-Boot</kbd> [Chapter04](./springboot-summary/README/Ch04_Start_SpringBoot.md). 스프링 부트란 <br>
 <kbd>Spring-Boot</kbd> [Chapter04](./springboot-summary/README/Ch04_HelloWorld.md). REST Client 설치 & Hello World API 제작 실습<br>
 <kbd>Spring-Boot</kbd> [Chapter04](./springboot-summary/README/Ch04_Get.md). GET API <br>
-
+<kbd>Spring-Boot</kbd> [Chapter04](./springboot-summary/README/Ch04_Post.md). POST API <br>
+<kbd>Spring-Boot</kbd> [Chapter04](./springboot-summary/README/Ch04_Put.md). PUT API <br>
+<kbd>Spring-Boot</kbd> [Chapter04](./springboot-summary/README/Ch04_Delete.md). DELETE API <br>
+<kbd>Spring-Boot</kbd> [Chapter04](./springboot-summary/README/Ch04_ResponseExample.md). Response 내려주기 및 모범사례 <br>
+<kbd>Spring-Boot</kbd> [Chapter04](./springboot-summary/README/Ch04_ObjectMapper.md). Object Mapper <br>
