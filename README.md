@@ -1,7 +1,7 @@
 # IntelliJ IDE
 - [intelliJ 설명](./TodoListPJT)
 
-# SPring Boot
+# Spring Boot
 
 ## Chapter 1 . 객체 지향
 <kbd>Spring-Boot</kbd> [Chapter01](./springboot-summary/README/Ch01_Development_environment.md). 개발환경 설치 <br>
