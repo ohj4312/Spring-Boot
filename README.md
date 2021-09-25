@@ -48,4 +48,5 @@
 <kbd>Spring-Boot</kbd> [Chapter05](./springboot-summary/README/Ch05_Annotation.md). 여러가지 Annotation 알아보기 <br>
 
 ## Chater 6. 스프링 기능 활용
-<kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_SpringBootValidation.md). Spring Boot Vaalidation <br>
+<kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_SpringBootValidation.md). Spring Boot Validation <br>
+<kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_CustomValidation.md). Spring Boot Custom Validation <br>
