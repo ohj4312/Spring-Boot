@@ -333,10 +333,3 @@ return obj
 User{id='steve', pw='1234', email='steve@gmail.com'}
 ```
 
-<br><br>
-
-### TIP> @Bean 과 @Component의 차이
-- Bean은 class에 붙일 수 없다. 
-- 컴포넌트로 클래스단위로 Bean 등록
-- Bean은 Method에서 붙일 수 있다.
-- @Configuration은 하나의 클래스에 여러 Bean이 등록된다.
