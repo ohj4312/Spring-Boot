@@ -1,6 +1,7 @@
 package com.example.validation.controller;
 
 import com.example.validation.dto.User;
+import com.example.validation.dto.User2;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.BindingResult;
@@ -17,7 +18,8 @@ import javax.validation.Valid;
 public class ApiController {
 
     @PostMapping("/user")
-    public ResponseEntity user(@Valid @RequestBody User user, BindingResult bindingResult){
+    public ResponseEntity user(@Valid @RequestBody User2 user, BindingResult bindingResult){
+        //public ResponseEntity user(@Valid @RequestBody User user, BindingResult bindingResult){
         //@Valid 객체에 Validation이 필요할때 붙여서 사용, 헤당 객체 안의 Validation에 해당하는 Annotation을 검사한다.
         //BindingResult : valid의 결과를 받는다.
         if(bindingResult.hasErrors()){
