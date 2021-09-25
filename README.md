@@ -42,7 +42,7 @@
 
 ## Chater 5. 스프링의 특징, 기능
 <kbd>Spring-Boot</kbd> [Chapter05](./springboot-summary/README/Ch05_Spring.md). 스프링의 핵심 <br>
-<kbd>Spring-Boot</kbd> [Chapter05](./springboot-summary/README/Ch05_ioc_DI.md). IoC , DI<br>
+<kbd>Spring-Boot</kbd> [Chapter05](./springboot-summary/README/Ch05_Ioc_DI.md). IoC , DI<br>
 <kbd>Spring-Boot</kbd> [Chapter05](./springboot-summary/README/Ch05_AOP.md). AOP <br>
 <kbd>Spring-Boot</kbd> [Chapter05](./springboot-summary/README/Ch05_ObjectMapper.md). ObjectMapper + Encoding Settings <br>
 <kbd>Spring-Boot</kbd> [Chapter05](./springboot-summary/README/Ch05_Annotation.md). 여러가지 Annotation 알아보기 <br>
