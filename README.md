@@ -50,3 +50,5 @@
 ## Chater 6. 스프링 기능 활용
 <kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_SpringBootValidation.md). Spring Boot Validation <br>
 <kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_CustomValidation.md). Spring Boot Custom Validation <br>
+<kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_Exception.md). Spring Boot Exception 처리 <br>
+<kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_SpringBootValidation_Example.md). Spring Boot Validation 모범 사례 <br>
