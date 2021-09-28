@@ -4,7 +4,7 @@
 - 주로 Spring Framework에서는 request/response의 Logging 용도(백오피스, admin에서 모든 요청의 기록에 대해 AOP등에서는 객체로 매핑한 상태이기 때문에 순수한 상태가 아니다) 로 활용하거나 인증(interceptor를 타기전에 session의 유무를 보고 reject등을 발생시킬 수 있다) 과 관련된 Logic들을 해당 Filter에서 처리한다.
 - 이를 선/후 처리함으로써 Service Business Logic과 분리시킨다.
 
-<img src="./img/Filter.PNG">
+<img src="./img/filter.PNG">
 
 - Filter는 제일 앞단에 존재
 - AOP는 HandlerInterceptor 뒤에 Handler로 보내지는 타이밍에 동작하게 된다.
