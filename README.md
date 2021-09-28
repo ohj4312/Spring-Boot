@@ -54,3 +54,4 @@
 <kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_SpringBootValidation_Example.md). Spring Boot Validation 모범 사례 <br>
 <kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_Filter.md). Filter의 활용 <br>
 <kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_Interceptor.md). Interceptor의 활용 <br>
+<kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_Asynchronous.md). 비동기 처리하기 <br>
