@@ -129,6 +129,8 @@ public class MVCConfig implements WebMvcConfigurer {
 2021-09-29 00:35:21.513  INFO 15748 --- [nio-8080-exec-2] c.e.i.interceptor.AuthInterceptor        : has annotation : false
 ```
 
+<br><br>
+
 ## 권한 체크 코드 추가하기
 - 나의 서버는 모두 public으로 동작한다.
 -  단, Auth 권한을 가진 요청에 대해서는 세션, 쿠키, RequestParam 등을 확인하는 정책을 사용하겠다.
@@ -235,7 +237,7 @@ public class MVCConfig implements WebMvcConfigurer {
 
 <br><br>
 
-### 예외 처리 추가하기
+## 예외 처리 추가하기
 - steve가 아닐 경우 예외가 발생하도록 한다. (권한이 없는 경우)
   - Inteceptor 에서 권한이 없는 경우 Throw Exception
   - ExceptionHandler에서 예외에 따른 코드를 응답한다.
