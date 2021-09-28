@@ -52,3 +52,5 @@
 <kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_CustomValidation.md). Spring Boot Custom Validation <br>
 <kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_Exception.md). Spring Boot Exception 처리 <br>
 <kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_SpringBootValidation_Example.md). Spring Boot Validation 모범 사례 <br>
+<kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_Filter.md). Filter의 활용 <br>
+<kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_Interceptor.md). Interceptor의 활용 <br>
