@@ -40,12 +40,14 @@
 <kbd>Spring-Boot</kbd> [Chapter04](./springboot-summary/README/Ch04_ResponseExample.md). Response 내려주기 및 모범사례 <br>
 <kbd>Spring-Boot</kbd> [Chapter04](./springboot-summary/README/Ch04_ObjectMapper.md). Object Mapper <br>
 
+
 ## Chater 5. 스프링의 특징, 기능
 <kbd>Spring-Boot</kbd> [Chapter05](./springboot-summary/README/Ch05_Spring.md). 스프링의 핵심 <br>
 <kbd>Spring-Boot</kbd> [Chapter05](./springboot-summary/README/Ch05_Ioc_DI.md). IoC , DI<br>
 <kbd>Spring-Boot</kbd> [Chapter05](./springboot-summary/README/Ch05_AOP.md). AOP <br>
 <kbd>Spring-Boot</kbd> [Chapter05](./springboot-summary/README/Ch05_ObjectMapper.md). ObjectMapper + Encoding Settings <br>
 <kbd>Spring-Boot</kbd> [Chapter05](./springboot-summary/README/Ch05_Annotation.md). 여러가지 Annotation 알아보기 <br>
+
 
 ## Chater 6. 스프링 기능 활용
 <kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_SpringBootValidation.md). Spring Boot Validation <br>
@@ -55,3 +57,8 @@
 <kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_Filter.md). Filter의 활용 <br>
 <kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_Interceptor.md). Interceptor의 활용 <br>
 <kbd>Spring-Boot</kbd> [Chapter06](./springboot-summary/README/Ch06_Asynchronous.md). 비동기 처리하기 <br>
+
+
+## Chater 7. Server to Server 간의 연결
+<kbd>Spring-Boot</kbd> [Chapter07](./springboot-summary/README/Ch07_ServerToServer.md). Server to Server 통신을 하는 방법 <br>
+<kbd>Spring-Boot</kbd> [Chapter07](./springboot-summary/README/Ch07_RestTemplate.md). Rest Template 사용하기 <br>
