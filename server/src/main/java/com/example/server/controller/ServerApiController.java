@@ -4,7 +4,16 @@ import com.example.server.dto.Req;
 import com.example.server.dto.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpEntity;
+import org.springframework.http.RequestEntity;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.client.RestTemplate;
+import org.springframework.web.util.UriComponentsBuilder;
+
+import java.net.URI;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
+import java.util.Base64;
 
 @Slf4j
 @RestController
@@ -51,5 +60,42 @@ public class ServerApiController {
 //        response.setResBody(null);
         response.setResBody(user.getResBody());
         return response;
+    }
+
+    //naver api 실습
+    @GetMapping("/naver")
+    public String naver(){
+
+
+
+        //uri 만들기
+        //https://openapi.naver.com/v1/search/local.json
+        // ?query=%EC%A3%BC%EC%8B%9D
+        // &display=10
+        // &start=1
+        // &sort=random
+        //utf-8 인코딩된 문자열을 받는다고 명시되어있으므로 utf-8로 인코딩해서 전달한다!
+        URI uri= UriComponentsBuilder.fromUriString("https://openapi.naver.com")
+                .path("/v1/search/local.json")
+                .queryParam("query","중국집")
+                .queryParam("display",10)
+                .queryParam("start",1)
+                .queryParam("sort","random")
+                .encode(Charset.forName("UTF-8"))
+                .build()
+                .toUri();
+
+        log.info("uri : {} ",uri);
+        RestTemplate restTemplate=new RestTemplate();
+
+        //header 만들기
+        RequestEntity<Void> req=RequestEntity.get(uri)
+                .header("X-Naver-Client-Id","id 넣기")
+                .header("X-Naver-Client-Secret","key 넣기")
+                .build();
+
+        ResponseEntity<String> result = restTemplate.exchange(req,String.class);
+
+        return result.getBody();
     }
 }
