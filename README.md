@@ -61,4 +61,5 @@
 
 ## Chater 7. Server to Server 간의 연결
 <kbd>Spring-Boot</kbd> [Chapter07](./springboot-summary/README/Ch07_ServerToServer.md). Server to Server 통신을 하는 방법 <br>
-<kbd>Spring-Boot</kbd> [Chapter07](./springboot-summary/README/Ch07_RestTemplate.md). Rest Template 사용하기 <br>
+<kbd>Spring-Boot</kbd> [Chapter07](./springboot-summary/README/Ch07_RestTemplate.md). Rest Template 사용하기 -1  <br>
+<kbd>Spring-Boot</kbd> [Chapter07](./springboot-summary/README/Ch07_RestTemplate_Post.md). Rest Template 사용하기 -2  <br>
