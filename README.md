@@ -67,3 +67,4 @@
 
 ## Chater 8. JUnit으로 테스트하기
 <kbd>Spring-Boot</kbd> [Chapter08](./springboot-summary/README/Ch8_JUnit.md). JUnit 이란?  <br>
+<kbd>Spring-Boot</kbd> [Chapter08](./springboot-summary/README/Ch08_CRUDTest.md). REST API CRUD 테스트 코드 작성하기  <br>
