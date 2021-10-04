@@ -9,8 +9,8 @@
 
 ## Test 실행해보기
 
-기존의 코드를 Spring Boot Project로 만들어 테스트하면 Browser 상으로 결과를 확인할 수 있다.
-
+- 기존의 코드를 Spring Boot Project로 만들어 테스트하면 Browser 상으로 결과를 확인할 수 있다.
+- <kbd>Spring-Boot</kbd> [Chapter08 JUnit 이란?](./springboot-summary/README/Ch8_JUnit.md) <br>
 ### 요청 : `http://localhost:8080/api/sum?x=10&y=10`
 
 
