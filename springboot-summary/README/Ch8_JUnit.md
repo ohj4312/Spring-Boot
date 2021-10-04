@@ -107,6 +107,7 @@ public class MarketApi {
 - 실제로 dollar는 실시간으로 항상 변할 것이다.
 - 이때 목킹 처리를 해야한다.
 
+
 ### build.gradle - mokito dependency 추가
 ```
 dependencies {
@@ -118,6 +119,9 @@ dependencies {
     testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: '3.11.2'
 }
 ```
+
+<img src="./img/maven_mockito.PNG">
+
 
 ### DollarCalculatorTest
 ```java
