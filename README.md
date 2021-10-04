@@ -73,4 +73,4 @@
 
 
 ## Chater 9. Swagger를 통한 API 공개
-<kbd>Spring-Boot</kbd> [Chapter09](./springboot-summary/README/Ch09_Swagger.md). JUnit 이란?  <br>
+<kbd>Spring-Boot</kbd> [Chapter09](./springboot-summary/README/Ch09_Swagger.md). Swagger란?  <br>
