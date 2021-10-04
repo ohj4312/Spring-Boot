@@ -27,6 +27,9 @@ dependencies {
 
 ## Test 코드 작성하기
 - @Test Annotation을 추가한다.
+- Main에 계속 로직을 추가하여 log를 찍고, 출력을 해보며 테스트를 할 필요가 없다!
+- Test 대상과 기대하는 값을 정하여 테스트를 실행한다.
+  - Assertions.assertEquals(기대값, 테스트 대상)
 
 ### test/java/DollarCalculatorTest class
 ```java
